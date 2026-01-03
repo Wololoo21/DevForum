@@ -1,0 +1,82 @@
+/* Sayfanın genel ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Daha modern bir yazı tipi */
+    background-color: #f0f2f5; /* Arka planı hafif gri yap */
+    color: #333; /* Yazı rengi koyu gri (tam siyah göz yorar) */
+    max-width: 800px; /* İçerik çok yayılmasın */
+    margin: 0 auto; /* Sayfayı tam ortala */
+    padding: 20px;
+}
+
+/* Başlıkları Güzelleştirme */
+h1 {
+    color: #0e0f0f; /* Mavi renk */
+    text-align: center; /* Ortaya hizala */
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #080808;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+/* Resim Ayarları */
+img {
+    border-radius: 10px; /* Resmin köşelerini yuvarla */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Resme gölge ver */
+    display: block; /* Resmi blok eleman yap */
+    margin: 20px auto; /* Ortala */
+    max-width: 100%; /* Telefondan girilirse taşmasın */
+}
+
+/* Linkler */
+a {
+    text-decoration: none; /* Altındaki çizgiyi kaldır */
+    color: #d63384; /* Pembe renk */
+    font-weight: bold;
+}
+
+/* Giriş Kutuları (Input) */
+input {
+    padding: 10px; /* Kutunun içindeki boşluk */
+    border: 1px solid #ccc; /* Kenarlık */
+    border-radius: 5px; /* Köşeleri yuvarla */
+    width: 200px;
+}
+
+/* Butonun Değişimi */
+button {
+    background-color: #98a09a; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı */
+    padding: 10px 20px; /* Butonun şişmanlığı */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Yuvarlak köşe */
+    cursor: pointer; /* Üzerine gelince el işareti çıksın */
+    font-size: 16px;
+}
+
+/* Butonun üzerine gelince ne olsun? (Hover Efekti) */
+button:hover {
+    background-color: #0b0c0c; /* Rengi biraz koyulaştır */
+    transform: scale(1.05); /* Çok hafif büyüsün */
+    transition: 0.2s; /* Bu değişim yumuşak olsun */
+}
+
+/* Başarılı işlem sınıfı */
+.success-message {
+    color: #155724;        /* Koyu yeşil yazı */
+    background-color: #d4edda; /* Açık yeşil arka plan */
+    border: 1px solid #c3e6cb; /* Yeşil kenarlık */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Hatalı işlem sınıfı */
+.error-message {
+    color: #721c24;        /* Koyu kırmızı yazı */
+    background-color: #f8d7da; /* Açık kırmızı arka plan */
+    border: 1px solid #f5c6cb; /* Kırmızı kenarlık */
+    padding: 10px;
+    border-radius: 5px;
+}
